@@ -1,2 +1,24 @@
-.node_modules
-*DS_Store
+# Node modules
+node_modules/
+
+# Build output
+dist/
+build/
+
+# TypeScript cache files
+*.tsbuildinfo
+
+# Environment variables
+.env
+
+# Logs
+*.log
+
+# VSCode settings folder
+.vscode/
+
+# React specific
+/build
+
+# ts-node-dev cache (for backend dev)
+.ts-node-dev/
