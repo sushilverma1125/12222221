@@ -23,3 +23,13 @@ This project implements a URL Shortener microservice with analytics and a React 
 cd backend
 npm install
 npm run dev
+```
+Runs backend on http://localhost:5000
+
+### Frontend
+```bash
+cd frontend
+npm install
+npm start
+```
+Runs frontend on http://localhost:3000
