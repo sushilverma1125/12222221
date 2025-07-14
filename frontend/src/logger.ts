@@ -1,4 +1,4 @@
-import { Log } from "./loggingMiddleWare/index";
+import { Log } from "../../loggingMiddleWare/index";
 
 export async function logFrontend(level: Parameters<typeof Log>[1], pkg: Parameters<typeof Log>[2], message: string) {
   try {

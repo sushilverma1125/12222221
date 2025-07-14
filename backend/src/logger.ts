@@ -1,4 +1,4 @@
-import { Log } from "../../frontend/src/loggingMiddleWare";
+import { Log } from "../../loggingMiddleWare";
 
 export async function logBackend(level: Parameters<typeof Log>[1], pkg: Parameters<typeof Log>[2], message: string) {
   try {
